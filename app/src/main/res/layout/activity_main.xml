@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saroshmadara.wearncare.MainActivity">
+
+    <TextView
+        android:background="#92be24"
+        android:id="@+id/textViewid"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:text="Hello World! akar bakkar bombay osdfjslk lskajfl;sajflksaj flas fklsdfj ;lksd flsda jfksd fa lksdfjlsa;dfjls k;" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_below="@id/textViewid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:background="#ecafaf"
+            android:id="@+id/iV1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_toRightOf="@id/iV1"
+            android:id="@+id/iV2"
+            android:background="#93bbe4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_below="@id/iV1"
+            android:background="#bce27d"
+            android:id="@+id/iV3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_below="@id/iV2"
+            android:layout_toRightOf="@id/iV3"
+            android:background="#f5ea84"
+            android:id="@+id/iV4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
